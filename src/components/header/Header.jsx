@@ -27,7 +27,8 @@ export const Header = () => {
                             <AddBoxOutlinedIcon className='icon'/>
                         </a>
                         <a href='/'>
-                        <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+                        <Avatar alt="Remy Sharp" src="https://www.diken.com.tr/wp-content/uploads/2023/07/20230724-elon-musk.jpg"
+                         sx={{ width:28, height:28 }} />
                         </a>
                     </div>
                 </div>
