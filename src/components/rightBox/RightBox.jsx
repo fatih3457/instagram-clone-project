@@ -13,10 +13,10 @@ export const RightBox = () => {
             src="/images/3chicken.jpg"
             sx={{ width: 56, height: 56 }} />
         </a>
-        <a href="/" className="account-titles">
+        <div className="account-titles">
           <a href="/">fatihozcan</a>
           <span>Fatih Özcan</span>
-        </a>
+        </div>
       </div>
       <span className="friends-title">My Friends</span>
       <ul className="friends-list">
@@ -25,7 +25,7 @@ export const RightBox = () => {
           <a href="/">
           <Avatar
             src="/images/2blackbean.jpg"
-            sx={{ width: 56, height: 56 }} />
+            sx={{ width: 40, height: 40 }} />
         </a>
         <div className="friend-username">
           <a href="/">rasit</a>

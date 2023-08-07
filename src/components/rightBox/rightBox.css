@@ -38,3 +38,40 @@
     flex-direction: column;
     row-gap: 12px;
 }
+
+.friend-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.friend-item-left {
+    display: flex;
+    align-items: center;
+}
+
+.friend-username {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+.friend-username a {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.friend-username span {
+    font-size: 12px;
+    color:#ccc
+}
+
+.friend-item-right {
+    margin-left: 6pc;
+}
+
+@media (max-width: 1000px) {
+    .friend-item-right {
+        margin-left: 2pc;
+    }
+}
