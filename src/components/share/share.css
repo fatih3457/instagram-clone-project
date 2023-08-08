@@ -49,3 +49,15 @@
     align-items: center;
     column-gap: 8px;
 }
+
+.share-img-wrapper {
+    position: relative;
+    margin-top: 8px;
+}
+
+.cancel-icon {
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    cursor: pointer;
+}
