@@ -3,10 +3,10 @@ import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import "./post.css";
 
-export const Post = () => {
+export const Post = ({ top, bottom }) => {
   return (
     <div className="post-wrapper">
-        <div className="post-header">
+        {top && ( <div className="post-header">
             <div className="post-header-left">
                 <a href="/">
                     <Avatar 
@@ -21,10 +21,12 @@ export const Post = () => {
                 </button>
             </div>
         </div>
+        )}
         <div className="post-image">
             <img src="/images/1beef.jpg" alt="Post Img" />
         </div>
-        <div className="post-bottom">
+        {bottom && (
+         <div className="post-bottom">
             <div className="post-like">
                 <button>
                     <FavoriteIcon className="post-like-icon active"/>
@@ -41,7 +43,6 @@ export const Post = () => {
             </div>
             
             <div className="post-time">1 dakika önce</div>
-        </div>
+        </div>)}
     </div>
-  )
-}
+  )}
