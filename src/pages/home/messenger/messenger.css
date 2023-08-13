@@ -1,0 +1,36 @@
+.messenger {
+    margin-top: 4rem;
+    height: calc(100vh - 64px);
+    display: flex;
+}
+
+.chat-menu {
+    flex: 3.5;
+    background: #f4f4f4;
+    border-right: 1px solid #ccc;
+}
+
+.chat-menu-wrapper {
+   display: flex;
+   flex-direction: column; 
+   justify-content: space-between;
+   position: relative;
+   padding: 10px;
+}
+
+.chat-menu-input {
+    width: 100%;
+    padding: 10px 0;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 6px;
+    padding-left: 6px;
+}
+
+.chat-box {
+    flex: 5.5;
+}
+
+.chat-online {
+    flex: 3;
+}
