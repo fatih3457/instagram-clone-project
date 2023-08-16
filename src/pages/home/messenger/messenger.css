@@ -10,10 +10,6 @@
     border-right: 1px solid #ccc;
 }
 
-.chat-menu-wrapper {
-   padding: 10px;
-}
-
 .chat-menu-input {
     width: 100%;
     padding: 10px 0;
@@ -34,7 +30,6 @@
     position: relative;
     background: #dedede;
     border-right: 1px solid #ccc;
-    height: 100%;
 }
 
 .chat-box-top {
@@ -54,6 +49,29 @@
 
 .chat-box-top::-webkit-scrollbar-thumb {
     width: 6px;
+}
+
+.chat-box-bottom {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.chat-message-input {
+    width: 100%;
+    height: 90px;
+    padding: 10px;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid;
+}
+
+.chat-menu-wrapper,
+.chat-box-wrapper,
+.chat-online-wrapper {
+    height: 100%;
+    padding: 10px;
 }
 
 .chat-online {

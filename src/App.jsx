@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Header } from "./components/header/Header";
 import { Share } from "./components/share/Share";
-import { Messenger } from "./pages/home/messenger/Messenger";
-
+import { Register } from "./pages/home/register/Register";
+/* import { Messenger } from "./pages/home/messenger/Messenger"; */
 /* import { Home } from "./pages/home/Home"; */
 /* import { Profile } from "./pages/home/profile/Profile"; */
 
@@ -16,7 +16,8 @@ function App() {
       <Share open={open} handleClose={handleClose} />
       {/* <Home /> */}
       {/* <Profile /> */}
-      <Messenger />
+      {/* <Messenger /> */}
+      <Register />
     </div>
   );
 }
