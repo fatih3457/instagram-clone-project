@@ -1,4 +1,4 @@
-import { TextField } from "@mui/material";
+import { Button, TextField } from "@mui/material";
 import "./register.css";
 
 export const Register = () => {
@@ -28,6 +28,10 @@ export const Register = () => {
         <div className="form-input"> 
             <TextField required type="text" label="Biography  " variant="outlined" /> 
         </div>
+        <a className="auth-link" href="/">
+            Back To Login
+        </a>
+        <Button type="submit" variant="contained" color="success">Register</Button>
     </form>
   </div>
   )

@@ -19,3 +19,25 @@
     padding: 15px 30px;
     row-gap: 10px;
 }
+
+.auth-page .form .form-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-page .form .auth-link {
+    color: blue;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .auth-page .form {
+        width: 350px;
+    }
+
+    .auth-page h1 {
+        font-size: 24px;
+        padding: 0 10px;
+    }
+}
