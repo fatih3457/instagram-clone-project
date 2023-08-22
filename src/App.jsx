@@ -3,8 +3,8 @@ import { Header } from "./components/header/Header";
 import { Share } from "./components/share/Share";
 import { Register } from "./pages/home/register/Register";
 import { Login } from "./pages/home/login/Login";
-import { Messenger } from "./pages/home/messenger/Messenger";
-import { Home } from "./pages/home/Home";
+/* import { Messenger } from "./pages/home/messenger/Messenger"; */
+/* import { Home } from "./pages/home/Home"; */
 import { Profile } from "./pages/home/profile/Profile";
 
 function App() {
@@ -15,9 +15,9 @@ function App() {
     <div className="App">
       <Header handleOpen={handleOpen} /> 
       <Share open={open} handleClose={handleClose} />
-      <Home />
+      {/* <Home /> */}
       <Profile />
-      <Messenger />
+      {/* <Messenger /> */}
       <Register />
       <Login />
     </div>
